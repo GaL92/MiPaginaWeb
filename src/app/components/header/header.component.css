@@ -1,0 +1,14 @@
+.header {
+    background: url('/assets/images/banner44.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+.header.navbar {
+    background-color: transparent !important;
+  }
+
+  .banner-image {
+    background-image: url('/assets/images/banner44.jpg');
+    background-size: cover;
+  }
