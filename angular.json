@@ -90,12 +90,21 @@
               "src/assets"
             ],
             "styles": [
+              "/node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "/node_modules/@fontawesome/fontawesome-free/css/all.css",
               "src/styles.css"
             ],
-            "scripts": []
-          }
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "/node_modules/@fontawesome/fontawesome-free/js/all.js"
+            ]
+    
         }
       }
     }
   }
-}
+  
+},
+"cli": {
+  "analytics": "37fc9f49-88df-4b9f-8fd6-4bd1c2b95c43"
+}}
