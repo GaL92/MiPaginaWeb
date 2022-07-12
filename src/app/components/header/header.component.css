@@ -73,6 +73,14 @@ img.redondo{
 }
 
 
+
+.btn-img{
+background:url('/src/assets/imagenes/editarr.png')
+}
+
+
+
+
 .content>.article {
   
   background: #f1e3cc;
