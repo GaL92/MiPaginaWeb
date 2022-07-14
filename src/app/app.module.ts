@@ -4,13 +4,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { BottonsComponent } from './components/bottons/bottons.component';
+
+import {ButtonComponent} from './components/button/button.component';
+import { EditarComponent } from './components/editar/editar.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    BottonsComponent
+    ButtonComponent,
+    EditarComponent,
+    NavbarComponent,
+   
   ],
   imports: [
     BrowserModule,

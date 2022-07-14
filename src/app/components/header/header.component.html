@@ -1,5 +1,6 @@
 
 <header class="header">
+
   <div class="col header-nav " >
     
   <nav class="navbar " style="background-color:#e0ae63 " >
@@ -12,23 +13,16 @@
       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
         
   
-        <button type="button" class="btn btn-primary">
-          <i class="facebook-icon fa fa-facebook"></i>
+        <app-button img="/assets/imagenes/facebook.png"></app-button>
     
-        </button>
-    
-        <button type="button" class="btn btn-dark">
-          <i class="github-icon fa fa-github" ></i>
-        </button>
-    
-        <button type="button" class="btn btn-danger" alt="instagram">
-          
-          <i class="instagram-icon fa fa-instagram"></i>
-  
-        </button>
-  
-        <button class="btn btn-light" type="button">Login</button>
-      
+       
+        <app-button img="/assets/imagenes/gihub.png"></app-button>
+        
+        <app-button  img="/assets/imagenes/instagram.png"></app-button>
+        
+        <button type="button" class="btn btn-dark">Login</button> 
+       
+       
       </div>
     </div>
   </nav>
@@ -50,21 +44,22 @@
 
         <div style="position:absolute; top:300; left:0;" >
         
-          <img class="redondo" src="/assets/imagenes/gabirock.jpg" >
+          <img class="redondo" src="/assets/imagenes/gabirock.jpg" width="" >
       
         </div>
-        <div style="position:absolute; top:530; left:250;">
-        <button type="button" class="btn btn-navbar" >
-              
-          <img src="../../../assets/imagenes/editarr.png" width="20px" height="20px">
-            
-           </button>
-          </div>
-        <div style="position:absolute; top:575; left:50;">
-          <h3> Gabriela Lucero </h3>
 
-          <p>Profesora de Matemática</p>
-          <p>Córdoba, Argentina</p>
+        <div style="position:absolute; top:530; left:285;">
+          
+          <app-button img="/assets/imagenes/editarr.png"></app-button>
+          
+        </div>
+        
+          <div style="position:absolute; top:575; left:50;">
+          
+            <h3> Gabriela Lucero </h3>
+
+            <p>Profesora de Matemática</p>
+            <p>Córdoba, Argentina</p>
   
           <div class="d-grid gap-2 d-md-flex justify-content-md-initial">
   
@@ -80,21 +75,15 @@
     </article>
 
     <article class="article" >
-        
-        
-    
+           
       <nav class="navbar">
         
-      
         <h3> A cerca de .... </h3>
           
           
-        <button type="button" class="btn btn-navbar" >
-            
-         <img src="../../../assets/imagenes/editarr.png" width="20px" height="20px">
-           
-          </button>
-        </nav>
+        <app-button img="/assets/imagenes/editarr.png"></app-button>
+        
+      </nav>
 
       </article>
 
@@ -103,14 +92,11 @@
         
           <h3>Experiencia</h3>
             
-          <button type="button" class="btn btn-navbar" >
-              
-           <img src="../../../assets/imagenes/editarr.png" width="20px" height="20px">
-             
-            </button>
+          <app-button img="/assets/imagenes/editarr.png"></app-button>
+
           </nav>
 
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est corrupti repudiandae quo amet magnam
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est corrupti repudiandae quo amet magnam
             mollitia necessitatibus incidunt veritatis officia veniam aperiam, sunt cumque sequi? Perferendis
             doloremque quaerat eos quas dolores.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ipsum? Minus unde quia officiis ipsum
