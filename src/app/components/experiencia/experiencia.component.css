@@ -1,0 +1,72 @@
+.container{
+    
+    margin: 0px auto;
+    overflow:auto;
+    min-height: 250px;
+    
+    width: 100%;
+    max-width: 1500px;
+    background-color: #e0ae63;
+    
+
+}
+
+
+
+
+
+.container>.content {
+  grid-column: span 3;
+  grid-row: span 4;
+  padding: 0;
+}
+
+h3{
+    display: inline;
+}
+
+h2,bottom{
+    display: inline;
+    
+}
+
+img.redondo{
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.06);
+  margin: 20px 30px;
+  transition: .2s;
+  position:"absolute";
+  top:10px;
+  left:10px;
+
+}
+
+
+
+.btn-img{
+background:url('/src/assets/imagenes/editarr.png')
+}
+
+
+
+
+.content>.article {
+  
+  background: #f1e3cc;
+  padding: 20px;
+  padding-left: 30px;
+  margin-top: 0px;
+  color: #292b2c;
+  border: 1px solid rgb(223, 195, 163);
+  border-radius: 10px;
+  justify-content: left;
+  
+ 
+}
+
+
+
+
+
+  
+

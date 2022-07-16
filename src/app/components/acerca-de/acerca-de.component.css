@@ -1,0 +1,96 @@
+.row{
+
+    padding:15px;
+    --bs-gutter-x: 0;
+}
+
+div{
+    background-color:#e0ae63;
+    text-align:left;
+}
+
+.container{
+  
+    background: #f1e3cc;
+    padding: 10px;
+    padding-left: 30px;
+    color: #292b2c;
+    border: 1px solid rgb(223, 195, 163);
+    border-radius: 10px;
+    justify-content: left;
+    
+   
+  }
+
+  
+
+
+
+/*Estilo de la foto de perfil*/
+@media(min-width:576px){
+    #fotodeperfil{
+        position:absolute;
+        width:20%;
+        border-radius: 100%;
+        box-shadow: 0 0 10px rgb(145, 143, 143);
+        left:3%;
+        Top:210px;
+
+    }
+
+
+}
+
+
+    @media(max-width:575px){
+    #fotodeperfil{
+        position:absolute;
+        width:30%;
+        border-radius: 100%;
+        box-shadow: 0 0 10px rgb(145, 143, 143);
+        left:33%;
+        Top:430px;
+
+    }
+
+    #nombre{
+        position:absolute;
+        width:30%;
+        left:33%;
+        top:520px;
+        }
+    
+       #p {
+            position:absolute;
+            width:30%;
+            left:33%;
+            top:630px;
+
+        }
+
+        #acercade{
+            position:absolute;
+            width:60%;
+            left:20%;
+            top:690px;
+        }
+    
+        #p2 {
+            position:absolute;
+            width:90%;
+            left:5%;
+            top:730px;
+
+        }
+    }
+
+    
+/*etiqueta nombre*/
+
+#nombre{
+
+    font-weight: bold;
+    margin-top: 15%;
+
+}
+

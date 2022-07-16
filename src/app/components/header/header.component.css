@@ -1,13 +1,15 @@
-.header {
-    background: url('/assets/images/banner44.jpg') no-repeat center;
-    background-size: cover;
-    border: 1px solid rgb(124, 122, 122);
-  
-    margin-top: 10px;
-    
-  }
 
+
+ div {
+    background-color:#e0ae63;
+}
  
+
+app-social {
+
+  float: right;
+  margin-top:57px;
+}
 
   .container{
     
@@ -19,11 +21,6 @@
     margin-block-end: 5px;
     width: 101.75%;
     max-width: 1600px;
-    
-    display:grid;
-    gap: 0px;
-    grid-template-columns: repeat(0,1fr);
-    
     justify-content: flex-start;
 
 }
