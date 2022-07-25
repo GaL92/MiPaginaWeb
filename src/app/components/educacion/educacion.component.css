@@ -16,6 +16,7 @@
   grid-column: span 3;
   grid-row: span 4;
   padding: 0;
+  
 }
 
 h3{
@@ -49,12 +50,14 @@ background:url('/src/assets/imagenes/editarr.png')
 
 .content>.article {
   
-  background: #f1e3cc;
+  background-color: #f1e3cc;
+
   padding: 20px;
   padding-left: 30px;
   margin-top: 0px;
   color: #292b2c;
   border: 1px solid rgb(223, 195, 163);
+  
   border-radius: 10px;
   justify-content: left;
   
