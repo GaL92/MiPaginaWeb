@@ -5,14 +5,11 @@
     min-height: 250px;
     
     width: 100%;
-    max-width: 1500px;
+    max-width: 1900px;
     background-color: #e0ae63;
     
 
 }
-
-
-
 
 
 .container>.content {
@@ -33,7 +30,7 @@ h2,bottom{
 img.redondo{
   border-radius: 50%;
   box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.06);
-  margin: 20px 30px;
+  margin: 10px;
   transition: .2s;
   position:"absolute";
   top:10px;
@@ -64,17 +61,46 @@ background:url('/src/assets/imagenes/editarr.png')
  
 }
 
+/*Estilo de la foto de Eduación*/
+
+
+@media(max-width:575px){
+
+  #p1 {
+       position:absolute;
+       width:50%;
+       left:7%;
+       top:1380px;
+
+   }
+
+   #b1 {
+     position:absolute;
+     width:50%;
+     left:65%;
+     top:1380px;
+
+ }
 
 
 
+   #p2 {
+       position:absolute;
+       width:90%;
+       left:5%;
+       top: 1460px;
+
+   }
+   
+}
+
+
+
+@media(min-width:575px){
+#b1 {
+ position:absolute;
+ 
+ left:94%;
  
 
-
-
-
-
-
-  
-
-
-  
+}}
