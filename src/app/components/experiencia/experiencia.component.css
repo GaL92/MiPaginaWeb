@@ -1,6 +1,6 @@
 .container{
     
-    margin: 0px ;
+    margin-top: -6px ;
     overflow:auto;
     min-height: 250px;
     
@@ -12,12 +12,6 @@
 
 }
 
-
-.container>.content {
-  grid-column: span 3;
-  grid-row: span 4;
-  padding: 0;
-}
 
 h3{
     display: inline;

@@ -2,6 +2,8 @@
 
  div {
     background-color:#e0ae63;
+    
+    
 }
  
 
@@ -11,111 +13,10 @@ app-social {
   margin-top:57px;
 }
 
-  .container{
-    
-    margin: 5px auto;
-    overflow:auto;
-    min-height: 300px;
-    margin-left: -11px;
-    margin-right: -10px;
-    margin-block-end: 5px;
-    width: 101.75%;
-    max-width: 1600px;
-    justify-content: flex-start;
-
-}
-
-.container>.header, .container>.content, .container>.sidebar, .container>.footer, .container>div {
-  background: #fff;
- 
-  
-}
-
-.container>.header, .container>.footer {
-  grid-column: 1/-1;
-  background-color: #1e272e;
-  color: #ffffff;
-  
-}
-
-.container>.content {
-  grid-column: span 3;
-  grid-row: span 4;
-  
-}
-
-
-img.redondo{
-  border-radius: 50%;
-  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.06);
-  margin: 20px 30px;
-  transition: .2s;
-  position:"absolute";
-  top:10px;
-  left:10px;
-
-}
-
-.content>.article-header{
-  background: #f1dab7;
-  padding: 10px;
-  margin-top: 5px;
-  margin-block-end: 10px;
-  color: #292b2c;
-  border: 0.5px solid rgb(223, 195, 163);
-  border-radius: 10px;
-  justify-content: left;
-  padding-block-end: 300px;
-
-}
-
-
-
-.btn-img{
-background:url('/src/assets/imagenes/editarr.png')
-}
-
-
-
-
-.content>.article {
-  
-  background: #f1e3cc;
-  padding: 10px;
-  padding-left: 60px;
-  margin-top: 10px;
-  color: #292b2c;
-  border: 1px solid rgb(223, 195, 163);
-  border-radius: 10px;
-  justify-content: left;
-  
- 
-}
-
-
-.content .article h1,
-.content .article p {
-  padding: 10px;
-}
-
-.container>.sidebar {
-  grid-column: span 2;
-  grid-row: span 4;
-  background: #2a3138;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
   
 
-.header.navbar {
-    background-color: transparent !important;
-  }
 
-  .banner-image {
-    background-image: url('/assets/images/banner44.jpg');
-    background-size: cover;
-  }
+
+
+
+

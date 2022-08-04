@@ -2,6 +2,7 @@
 
     padding:10px;
     --bs-gutter-x: 0;
+    margin-top:-90px
 }
 
 div{
@@ -12,33 +13,73 @@ div{
 .container{
   
     background: #f1e3cc;
-    padding: 10px;
+    padding: 25px;
     padding-left: 30px;
     color: #292b2c;
-    border: 1px solid rgb(223, 195, 163);
+    
     border-radius: 10px;
     justify-content: left;
     
   }
 
+  button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #dfcfac;
+   
+    
+    border: none;
+    
+    text-align: center;
+    
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+    
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-right: 5px;
+  }
   
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -10px;
+    transition: 0.5s;
+  }
+  
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
 
 
 
 /*Estilo de la foto de perfil*/
+
+
 @media(min-width:576px){
     #fotodeperfil{
         position:absolute;
-        width:20%;
+        width:18%;
         border-radius: 100%;
         box-shadow: 0 0 10px rgb(145, 143, 143);
         left:3%;
         Top:210px;
 
     }
-
-
-
 
 }
 

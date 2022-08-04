@@ -1,0 +1,38 @@
+.row{
+
+  padding:2px;
+  --bs-gutter-x: 0;
+}
+
+
+.container{
+    
+    margin-top:5px;
+    max-width: 1800px;
+    background-color: #e0ae63;
+    
+    
+}
+
+
+
+.container>.article {
+  
+    background-color: #f1e3cc;
+  
+    padding: 20px;
+    
+    margin-top: 0px;
+    color: #292b2c;
+    border: 0px solid rgb(223, 195, 163);
+   
+    border-radius: 10px;
+    justify-content: left;
+    
+   
+  }
+
+  .img-formato{
+    box-shadow: 8px 8px 20px rgb(5, 0, 0);
+
+  }
