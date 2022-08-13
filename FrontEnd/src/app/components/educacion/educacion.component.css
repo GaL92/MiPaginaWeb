@@ -1,0 +1,103 @@
+.container{
+    
+    margin: 0px auto;
+    overflow:auto;
+    min-height: 250px;
+    
+    width: 100%;
+    max-width: 1900px;
+    background-color: #e0ae63;
+    
+
+}
+
+
+
+h3{
+    display: inline;
+}
+
+h2,bottom{
+    display: inline;
+    
+}
+
+img.redondo{
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.06);
+  margin: 10px;
+  transition: .2s;
+  position:"absolute";
+  top:10px;
+  left:10px;
+
+}
+
+
+
+.btn-img{
+background:url('/src/assets/imagenes/editarr.png')
+}
+
+
+
+
+.content>.article {
+  
+  background-color: #f1e3cc;
+
+  padding: 20px;
+  padding-left: 30px;
+  margin-top: 0px;
+  color: #292b2c;
+  border: 1px solid rgb(223, 195, 163);
+  
+  border-radius: 10px;
+  justify-content: left;
+  
+ 
+}
+
+/*Estilo de la foto de Eduación*/
+
+
+@media(max-width:575px){
+
+  #p1 {
+       position:absolute;
+       width:50%;
+       left:7%;
+       top:1380px;
+
+   }
+
+   #b1 {
+     position:absolute;
+     width:50%;
+     left:65%;
+     top:1380px;
+
+ }
+
+
+
+   #p2 {
+       position:absolute;
+       width:90%;
+       left:5%;
+       top: 1460px;
+
+   }
+   
+}
+
+
+
+@media(min-width:575px){
+#b1 {
+ position:absolute;
+ 
+ left:94%;
+ 
+
+}}
